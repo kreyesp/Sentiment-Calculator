@@ -12,3 +12,4 @@ Models include:
 git clone https://github.com/kreyesp/Sentiment-Calculator.git
 cd Sentiment-Calculator
 pip install -r requirements.txt
+python -m spacy download en_core_web_lg

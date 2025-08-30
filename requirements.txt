@@ -1,0 +1,20 @@
+# Core PyTorch + CUDA 12.8 builds
+torch --index-url https://download.pytorch.org/whl/cu128
+torchvision --index-url https://download.pytorch.org/whl/cu128
+torchaudio --index-url https://download.pytorch.org/whl/cu128
+
+# Torchtext (legacy version for your code)
+torchtext==0.6.0 --no-cache-dir -i https://pypi.org/simple
+
+# Utilities
+matplotlib
+tqdm
+mlxtend
+torchmetrics
+numpy
+scikit-learn
+
+# NLP
+spacy
+transformers
+tokenizers
