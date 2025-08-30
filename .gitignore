@@ -1,0 +1,8 @@
+# Ignore datasets
+.data/
+
+# Ignore virtual environment
+model_0-env/
+
+# Ignore PyTorch model weights
+*.pth
