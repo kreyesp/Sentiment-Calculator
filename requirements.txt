@@ -18,3 +18,16 @@ scikit-learn
 spacy
 transformers
 tokenizers
+
+
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+
+# pip install torchtext --no-cache-dir -i https://pypi.org/simple
+
+# pip install matplotlib
+# pip install tqdm
+# pip install mlxtend torchmetrics
+
+# pip install spacy
+# python -m spacy download en_core_web_lg
+# pip install transformers tokenizers
